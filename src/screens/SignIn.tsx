@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Heading, VStack, Icon, useTheme } from "native-base";
-import Logo from "../assets/logo_primary.svg";
 import { Envelope, Key } from "phosphor-react-native";
 import { Input } from "../components/Input";
 import { Button } from "../components/Button";
+import Logo from "../assets/logo_primary.svg";
 export function SignIn() {
     const [name, setName] = useState("");
     const [password, setPassword] = useState("");
